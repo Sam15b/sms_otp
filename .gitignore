@@ -1,0 +1,23 @@
+# Flutter/Dart
+**/flutter_sms_autofill/.dart_tool/
+**/flutter_sms_autofill/.packages
+**/flutter_sms_autofill/.flutter-plugins
+**/flutter_sms_autofill/.flutter-plugins-dependencies
+**/flutter_sms_autofill/build/
+**/flutter_sms_autofill/ios/.symlinks/
+**/flutter_sms_autofill/ios/Flutter/flutter_export_environment.sh
+**/flutter_sms_autofill/.idea/
+**/flutter_sms_autofill/.vscode/
+**/flutter_sms_autofill/*.iml
+**/flutter_sms_autofill/local.properties
+**/flutter_sms_autofill/pubspec.lock
+
+# Node.js
+**/otp/node_modules/
+**/otp/.env
+**/otp/npm-debug.log
+**/otp/dist/
+
+# System Files
+.DS_Store
+Thumbs.db
