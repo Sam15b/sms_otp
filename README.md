@@ -38,7 +38,7 @@ The server also exposes an endpoint where the client sends the OTP for verificat
 📽️ Demo Video
 Check out the demo of the full OTP authentication flow:
 
-<a data-start="223" data-end="337" rel="noopener" target="_new" class="" href="https://www.youtube.com/watch?v=VIDEO_ID_HERE"><img alt="Watch the Demo" data-start="224" data-end="289" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZ6QrBIz7NPCtHuk-6EeZkInb_SBrXWX_yGFZjpoEuvzhWwzW0N8S1Fp1S_sp5SUXg8E" style="max-width:100%;width:110vh;"></a>
+<a data-start="223" data-end="337" rel="noopener" target="_new" class="" href="https://www.linkedin.com/posts/sam-sde_flutter-otp-flutterdev-activity-7317796035832025088-ham0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEztkXcB7v8aQJ1eKeIOBmmBCzZ9XxNr4jk"><img alt="Watch the Demo" data-start="224" data-end="289" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZ6QrBIz7NPCtHuk-6EeZkInb_SBrXWX_yGFZjpoEuvzhWwzW0N8S1Fp1S_sp5SUXg8E" style="max-width:100%;width:110vh;"></a>
 
 📦 Flutter Packages Used
 
