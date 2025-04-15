@@ -5,7 +5,7 @@ This project implements a seamless OTP-based authentication flow using Flutter o
 
 🔢 OTP input with SMS auto-fill
 
-📩 Automatic OTP detection using `sms_autofill`
+📩 Automatic OTP detection using ```sms_autofill```
 
 🔐 OTP generation and verification using a Node.js backend
 
@@ -26,7 +26,11 @@ The backend is built using Node.js and uses the otp-generator package to generat
    
 📤 Example OTP Generation
 
-<pre> ```js const otpGenerator = require('otp-generator'); const otp = otpGenerator.generate(4, { upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false, }); ``` </pre>
+ ``` javascript
+const otpGenerator = require('otp-generator'); 
+
+ const otp = otpGenerator.generate(4, { upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false, });
+ ``` 
 
 🔍 OTP Verification Endpoint
 The server also exposes an endpoint where the client sends the OTP for verification. If matched, authentication proceeds.
