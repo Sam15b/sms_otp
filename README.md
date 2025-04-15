@@ -17,9 +17,11 @@ This project implements a seamless OTP-based authentication flow using Flutter o
 The backend is built using Node.js and uses the otp-generator package to generate secure OTPs. Here's a quick overview of how the backend works:
 
 🔧 Technologies Used
+
    • Node.js
    • Express.js
    • otp-generator
+   
 📤 Example OTP Generation
 `
 const otpGenerator = require('otp-generator');
@@ -32,9 +34,10 @@ The server also exposes an endpoint where the client sends the OTP for verificat
 📽️ Demo Video
 Check out the demo of the full OTP authentication flow:
 
-<a data-start="223" data-end="337" rel="noopener" target="_new" class="" href="https://www.youtube.com/watch?v=VIDEO_ID_HERE"><img alt="Watch the Demo" data-start="224" data-end="289" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZ6QrBIz7NPCtHuk-6EeZkInb_SBrXWX_yGFZjpoEuvzhWwzW0N8S1Fp1S_sp5SUXg8E"></a>
+<a data-start="223" data-end="337" rel="noopener" target="_new" class="" href="https://www.youtube.com/watch?v=VIDEO_ID_HERE"><img alt="Watch the Demo" data-start="224" data-end="289" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZ6QrBIz7NPCtHuk-6EeZkInb_SBrXWX_yGFZjpoEuvzhWwzW0N8S1Fp1S_sp5SUXg8E" style="max-width:100%;width:110vh;"></a>
 
 📦 Flutter Packages Used
+
   • sms_autofill
   • flutter
   • Navigation & Routing
@@ -54,7 +57,6 @@ flutter pub get
 `
 
 3) Run the app:
-   
 `
 flutter run
 `
@@ -67,13 +69,11 @@ cd backend
 `
 
 2) Install dependencies:
-   
 `
 npm install
 `
 
 4) Start the server:
-
 `
 node index.js
 `
