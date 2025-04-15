@@ -1,7 +1,8 @@
 🔐 Flutter SMS Auto Filler – OTP Authentication
 This project implements a seamless OTP-based authentication flow using Flutter on the frontend and Node.js on the backend. Users receive an OTP via SMS, which is automatically detected and filled in the input field using SMS Auto Fill. The OTP is verified on the server, and upon success, the user is authenticated and navigated to the Dashboard.
 
-✨ Features \n
+✨ Features
+
 🔢 OTP input with SMS auto-fill
 
 📩 Automatic OTP detection using `sms_autofill`
@@ -38,30 +39,41 @@ Check out the demo of the full OTP authentication flow:
   • flutter
   • Navigation & Routing
 
-🚀 Getting Started\n
-🖥️ Flutter Frontend\n
+🚀 Getting Started
+
+🖥️ Flutter Frontend
+
 1) Clone the repo:
 `
 git clone https://github.com/your-username/flutter-sms-autofill.git
-`\n
+`
+
 2) Install dependencies:
 `
 flutter pub get
-` \n
+`
+
 3) Run the app:
+   
 `
 flutter run
-`\n
-🧪 Node.js Backend\n
-1) Navigate to backend directory:\n
+`
+
+🧪 Node.js Backend
+
+1) Navigate to backend directory:
 `
 cd backend
-`\n
-2) Install dependencies:\n
+`
+
+2) Install dependencies:
+   
 `
 npm install
-`\n
-3) Start the server:\n
+`
+
+4) Start the server:
+
 `
 node index.js
-`\n
+`
