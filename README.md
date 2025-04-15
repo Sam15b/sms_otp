@@ -19,14 +19,16 @@ The backend is built using Node.js and uses the otp-generator package to generat
 🔧 Technologies Used
 
    • Node.js
+   
    • Express.js
+   
    • otp-generator
    
 📤 Example OTP Generation
+
 `
 const otpGenerator = require('otp-generator');
-
-const otp = otpGenerator.generate(4, { upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false })
+const otp = otpGenerator.generate(4, { upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false });
 `
 🔍 OTP Verification Endpoint
 The server also exposes an endpoint where the client sends the OTP for verification. If matched, authentication proceeds.
