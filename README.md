@@ -27,7 +27,8 @@ The backend is built using Node.js and uses the otp-generator package to generat
 📤 Example OTP Generation
 
 `
-const otpGenerator = require('otp-generator');\n
+const otpGenerator = require('otp-generator');
+
 const otp = otpGenerator.generate(4, { upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false });
 `
 
